@@ -1,4 +1,4 @@
-
+from .members import *
 
 from collections import namedtuple
 import logging
