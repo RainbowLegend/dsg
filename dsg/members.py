@@ -12,5 +12,5 @@ class Members:
         elif member.lower() != 'rushil':
             return False
         else:
-            raise dsgException(Exception)
+            raise dsgException('Finding isgay() property failed')
     
