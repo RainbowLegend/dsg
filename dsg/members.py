@@ -11,7 +11,7 @@ class Members:
             return True
         elif user != 'rushil':
             return False
-        except:
+        else:
             raise dsgException('Finding isgay() method failed')
      
      @property
