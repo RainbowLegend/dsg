@@ -5,7 +5,7 @@ class Members:
     def __init__(self, **kwargs):
         pass
 
-    def isgay(self, user: str):
+    def isgay(user: str):
         """Returns if the user is gay"""
         if user == 'rushil':
             return True
