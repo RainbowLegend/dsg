@@ -3,6 +3,7 @@ from .errors import *
 class Members:
     
     def __init__(self, **kwargs):
+        self.gen = self.members
         pass
 
     def isgay(user: str):
