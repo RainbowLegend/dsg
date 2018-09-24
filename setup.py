@@ -5,9 +5,6 @@ requirements = []
 with open('requirements.txt') as f:
   requirements = f.read().splitlines()
 
-if on_rtd:
-  requirements.append('sphinxcontrib-napoleon')
-
 version = ''
 with open('dsg/__init__.py') as f:
     version = re.search(r'^__version__\s*=\s*[\'"]([^\'"]*)[\'"]', f.read(), re.MULTILINE).group(1)
