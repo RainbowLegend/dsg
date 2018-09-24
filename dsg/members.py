@@ -3,7 +3,6 @@ from .errors import *
 class Members:
     
     def __init__(self, **kwargs):
-        self.gen = self.members
         pass
 
     def isgay(user: str):
@@ -15,7 +14,7 @@ class Members:
         else:
             raise dsgException('Finding isgay() method failed')
             
-    @property
+    @attribute
     def members(self):
         """Property method that returns a list of members"""
         membersofDSG = ['rushil', 'nigel', 'matt', 'armen', 'nicolo', 'dan']
