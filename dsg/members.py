@@ -22,3 +22,5 @@ class Members:
             gen.append(membersofDSG.title())
         return gen
     
+    members = members()
+    
