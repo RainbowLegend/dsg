@@ -6,11 +6,9 @@ class Members:
         pass
     
     @property
-    def isgay(member):
-        if member.lower() == 'rushil':
-            return True
-        elif member.lower() != 'rushil':
+    def isgay(self):
+        try:
             return False
-        else:
+        except:
             raise dsgException('Finding isgay() property failed')
     
