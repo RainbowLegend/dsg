@@ -14,7 +14,6 @@ class Members:
         else:
             raise dsgException('Finding isgay() method failed')
             
-    @property
     def members(self):
         """Property method that returns a list of members"""
         membersofDSG = ['rushil', 'nigel', 'matt', 'armen', 'nicolo', 'dan']
@@ -22,5 +21,5 @@ class Members:
             gen.append(membersofDSG.title())
         return gen
     
-    members = members
+    members = property(members)
     
