@@ -1,4 +1,4 @@
-import .errors
+from .errors import *
 
 class Members:
     
@@ -12,5 +12,5 @@ class Members:
         elif member.lower() != 'rushil':
             return False
         else:
-            raise dsg.dsgException(Exception)
+            raise dsgException(Exception)
     
