@@ -4,11 +4,18 @@ class Members:
     
     def __init__(self, **kwargs):
         pass
-    
-    @property
-    def isgay(self):
-        try:
+
+    def isgay(self, user: str):
+        if user == 'rushil':
+            return True
+        elif user != 'rushil':
             return False
         except:
-            raise dsgException('Finding isgay() property failed')
+            raise dsgException('Finding isgay() method failed')
+     
+     @property
+     def members(self):
+        membersofDSG = ['rushil', 'nigel', 'matt', 'armen', 'nicolo', 'dan']
+        for member in membersofDSG:
+            gen.append(membersofDSG.title())
     
