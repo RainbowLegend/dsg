@@ -7,9 +7,9 @@ class Members:
 
     def isgay(user: str):
         """Returns if the user is gay"""
-        if user == 'rushil':
+        if user.lower() == 'rushil':
             return True
-        elif user != 'rushil':
+        elif user.lower() != 'rushil':
             return False
         else:
             raise dsgException('Finding isgay() method failed')
@@ -17,7 +17,7 @@ class Members:
     def members():
         """Method that returns a list of members"""
         membersofDSG = ['rushil', 'nigel', 'matt', 'armen', 'nicolo', 'dan']
-        gen = []
+        
         for member in membersofDSG:
-            gen.append(member.title())
-        return gen
+            yield member.title()
+    
