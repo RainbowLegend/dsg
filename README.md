@@ -27,4 +27,5 @@ name = 'rushil'
 
 # modules available: [Members]
 
-print(dsg.Members.isgay(name)```
+print(dsg.Members.isgay(name)
+```
