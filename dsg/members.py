@@ -17,6 +17,7 @@ class Members:
     def members():
         """Method that returns a list of members"""
         membersofDSG = ['rushil', 'nigel', 'matt', 'armen', 'nicolo', 'dan']
+        gen = []
         for member in membersofDSG:
             gen.append(membersofDSG.title())
         return gen
