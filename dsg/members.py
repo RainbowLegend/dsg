@@ -19,5 +19,5 @@ class Members:
         membersofDSG = ['rushil', 'nigel', 'matt', 'armen', 'nicolo', 'dan']
         gen = []
         for member in membersofDSG:
-            gen.append(membersofDSG.title())
+            gen.append(member.title())
         return gen
