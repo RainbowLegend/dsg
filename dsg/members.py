@@ -15,7 +15,7 @@ class Members:
             raise dsgException('Finding isgay() method failed')
             
     def members():
-        """Method that returns a list of members"""
+        """Generator that returns all members"""
         membersofDSG = ['rushil', 'nigel', 'matt', 'armen', 'nicolo', 'dan']
         
         for member in membersofDSG:
