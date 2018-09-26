@@ -10,12 +10,12 @@ You need to install Python 3.6+, as this will utilize functions in py36 and abov
 
 You need to go into either your venv or your cmd and run the command:
 ```
-python3 - m pip install git+https://github.com/RainbowLegend/dsg.git
+python3 -m pip install git+https://github.com/RainbowLegend/dsg.git
 ```
 
 To update:
 ```
-python3 - m pip install git+https://github.com/RainbowLegend/dsg.git --upgrade
+python3 -m pip install git+https://github.com/RainbowLegend/dsg.git --upgrade
 ```
 
 ## Example
@@ -25,7 +25,7 @@ import dsg
 
 name = 'rushil'
 
-# modules available: [Members]
+# modules available: [Members, Games]
 
 print(dsg.Members.isgay(name))
 ```
