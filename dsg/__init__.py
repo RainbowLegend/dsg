@@ -1,4 +1,5 @@
 from .members import *
+from .games import *
 
 from collections import namedtuple
 import logging
