@@ -8,11 +8,11 @@ __title__ = 'dsg'
 __author__ = 'RainbowLegend'
 __license__ = 'MIT'
 __copyright__ = 'Copyright 2018 RainbowLegend'
-__version__ = '0.1.0'
+__version__ = '0.1.3'
 
 VersionInfo = namedtuple('VersionInfo', 'major minor micro releaselevel serial')
 
-version_info = VersionInfo(major=0, minor=1, micro=0, releaselevel='final', serial=0)
+version_info = VersionInfo(major=0, minor=1, micro=3, releaselevel='final', serial=0)
 
 try:
     from logging import NullHandler
