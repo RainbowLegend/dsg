@@ -4,8 +4,9 @@ class Members:
     
     def __init__(self, **kwargs):
         pass
-
-    def isgay(user: str):
+    
+    @classmethod
+    def isgay(self, user: str):
         """Returns if the user is gay"""
         if user.lower() == 'rushil':
             return True
@@ -14,7 +15,8 @@ class Members:
         else:
             raise dsgException('Finding isgay() method failed')
             
-    def members():
+    @classmethod      
+    def members(self):
         """Generator that returns all members"""
         membersofDSG = ['rushil', 'nigel', 'matt', 'armen', 'nicolo', 'dan']
         
